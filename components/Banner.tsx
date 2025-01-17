@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+
 const Banner = () => {
   return (
     <section
@@ -11,7 +12,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.6 }}
         className="text-lg font-titleFont tracking-wide text-textGreen"
       >
-        Hola ,mi nombre es
+        Hola, mi nombre es
       </motion.h3>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
@@ -29,12 +30,16 @@ const Banner = () => {
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
         apasionado por aprender y crecer en el mundo de la tecnología.{" "}
-        <span className="text-yellow-100"> Especializado en React </span>, me
+        <span className="text-yellow-100">Especializado en React</span>, me
         encanta crear interfaces interactivas y eficientes. Siempre estoy en la
         búsqueda de nuevos desafíos y oportunidades para mejorar mis habilidades
-        y aplicar mis conocimientos en proyectos reales."
+        y aplicar mis conocimientos en proyectos reales.
       </motion.p>
-      <a href="https://github.com/junito02/junito02" target="_blank">
+      <a
+        href="https://github.com/junito02/junito02"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
