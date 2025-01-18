@@ -110,10 +110,7 @@ const Navbar = () => {
             </Link>
           </ul>
 
-          <a
-            href="https://drive.google.com/file/d/1YjY4kpAK4oTwK58bGlScrDLahcvzYVI5/view?usp=drive_link"
-            target="_blank"
-          >
+          <a href="curriculum.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
