@@ -11,7 +11,7 @@ const About = () => {
     >
       <SectionTitle title="Acerca de mi" titleNo="01" />
       <div className="flex flex-col lgl:flex-row gap-16">
-        <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
+        <div className="w-full lgl:w-2/3 text-base font-medium text-black  flex flex-col gap-4">
           <p>
             Hace dos años, decidí adentrarme en el apasionante mundo de la
             programación, impulsado por mi interés en la tecnología y el deseo

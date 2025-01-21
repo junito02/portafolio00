@@ -33,14 +33,14 @@ const Projects = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
             <div>
-              <h3 className="text-2xl font-bold">Movies App</h3>
+              <h3 className="text-2xl font-bold text-black">Movies App</h3>
             </div>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="bg-[#112240] text-sm md:text-base text-white p-2 md:p-6 rounded-md">
               esta aplicacion de peliculas es una aplicacion web que te permite
               ver detalles de peliculas y ver trailers de peliculas.como tambien
               sus actores y actrices.
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-[#1d3f61]">
               <li>React</li>
               <li>TMDB API</li>
               <li>React Router</li>
@@ -49,7 +49,7 @@ const Projects = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <a
-                className="hover:text-textGreen duration-300"
+                className="bg-[#1d3f61] hover:text-[#25507b] duration-300"
                 href="https://movies-plum-ten.vercel.app/"
                 target="_blank"
               >
@@ -77,13 +77,13 @@ const Projects = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
             <div>
-              <h3 className="text-2xl font-bold">Ecommerce</h3>
+              <h3 className="text-2xl font-bold text-black">Ecommerce</h3>
             </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
+            <p className="text-sm md:text-base bg-[#112240] text-white p-2 md:p-6 rounded-md xl:-mr-16">
               Esta aplicacion de ecommerce es una aplicacion web que te permite
               hacer pedidos de productos y ver detalles de los productos.
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-[#1d3f61]">
               <li>React</li>
               <li>React Router</li>
               <li>Tailwind</li>
@@ -91,7 +91,7 @@ const Projects = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <a
-                className="hover:text-textGreen duration-300"
+                className="bg-[#1d3f61] hover:text-[#25507b] duration-300"
                 href="https://ecommerce01-gules.vercel.app/"
                 target="_blank"
               >
@@ -119,30 +119,24 @@ const Projects = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right xl:-ml-16 z-10">
             <div>
-              <h3 className="text-2xl font-bold">Aplicacion de noticias</h3>
+              <h3 className="text-2xl font-bold text-black">
+                Aplicacion de noticias
+              </h3>
             </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
+            <p className="text-sm md:text-base bg-[#112240] text-white p-2 md:p-6 rounded-md">
               Esta aplicacion de noticias es una aplicacion web que te permite
               ver noticias y ver detalles de las noticias. aunque la api tiene
               restricciones es un proyecto completo y me gusto el desarrollo
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-[#1d3f61]">
               <li>React</li>
               <li>Tailwind</li>
               <li>News API</li>
               <li>Vercel Deployment</li>
             </ul>
-            <div className="text-2xl flex gap-4">
+            <div className="text-2xl flex gap-4 ">
               <a
-                className="hover:text-textGreen duration-300"
-                href="https://github.com/junito02/App-news"
-                target="_blank"
-              >
-                <TbBrandGithub />
-              </a>
-
-              <a
-                className="hover:text-textGreen duration-300"
+                className="bg-[#1d3f61] hover:text-[#25507b] duration-300"
                 href="https://github.com/junito02/App-news"
                 target="_blank"
               >

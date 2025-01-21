@@ -1,10 +1,8 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
 import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
 import LeftSide from "@/components/LeftSide";
 import Navbar from "@/components/Navbar";
-
 import Projects from "@/components/Projects";
 import RightSide from "@/components/RightSide";
 import Head from "next/head";
@@ -20,7 +18,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href={logo.src} />
       </Head>
-      <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight  overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60">
+      <main className="w-full h-screen font-bodyFont bg-[url('/fondo5.jpg')] bg-cover bg-no-repeat text-textLight  overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60">
         <Navbar />
         <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
           <motion.div
@@ -38,7 +36,6 @@ export default function Home() {
             <Projects />
 
             <Contact />
-            <Footer />
           </div>
           <motion.div
             initial={{ opacity: 0 }}
