@@ -1,7 +1,7 @@
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
-import image from "../public/assets/images/imagen.webp";
+import image from "../public/assets/images/el-junior.webp";
 
 const About = () => {
   return (
